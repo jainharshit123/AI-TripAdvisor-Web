@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from '../ui/button'
 import { Link } from 'react-router-dom'
-
+import { FaArrowRight } from "react-icons/fa6";
 
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
         <p className='text-xl text-gray-500 text-center'>Your personal trip planner and travel curator, creating custom itineraries tailored to your interests and budget.</p>
 
         <Link to= {'/create-trip'}>
-        <Button>Get Started, It's Free</Button>
+        <Button className='flex items-center gap-1'>Get Started, It's Free <FaArrowRight className='h-5'/> </Button>
         </Link>
         <div className="container mx-auto p-4">
         <div className="container mx-auto p-4">
