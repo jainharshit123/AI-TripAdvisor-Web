@@ -2,11 +2,12 @@ import React from 'react'
 import { Button } from '../ui/button'
 import { Link } from 'react-router-dom'
 import { FaArrowRight } from "react-icons/fa6";
+import Footer from '@/view-trip/components/Footer';
 
 
 const Hero = () => {
   return (
-    <div className='flex flex-col items-center mx-56 gap-9'> 
+    <div className='flex flex-col items-center mx-auto gap-9'> 
       <h1 
       className='font-extrabold text-[50px] text-center mt-10'>
         <span className='text-[#258027]'>Discover Your Next Adventure with <span className='text-[#ef6808]'>AI:</span></span>  <br></br>Personalized Itineraries at Your Fingertips</h1>
@@ -30,7 +31,7 @@ const Hero = () => {
     />
     <img 
       src='/home.jpg' 
-      className="object-cover w-full h-75 rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105" 
+      className="object-cover w-full h-64 rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105" 
       alt="Home" 
     />
   </div>
@@ -38,10 +39,14 @@ const Hero = () => {
 
 </div>
 
-        {/* <img src='https://www.quizexpo.com/wp-content/uploads/2020/10/q17-2.jpg' className="w-full -mt-20"/> */}
+<Footer>
+
+</Footer>
 
 
     </div>
+
+    
   )
 }
 

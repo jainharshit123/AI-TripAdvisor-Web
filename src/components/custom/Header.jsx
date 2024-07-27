@@ -57,7 +57,7 @@ const Header = () => {
   };
 
   return (
-    <div className="p-2 shadow-sm flex justify-between items-center px-5">
+    <div className="p-2 shadow-sm flex justify-between items-center px-5 flex-col sm:flex-row gap-2 sm:gap-4">
       <div className="flex items-center ">
         <a href='/'>
         <img
@@ -66,7 +66,7 @@ const Header = () => {
         />
         </a>
       </div>
-      <div>
+      <div className=" ">
         {user ? (
           <div className="flex items-center gap-2">
             <a href='/create-trip'>
