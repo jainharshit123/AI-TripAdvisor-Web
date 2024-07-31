@@ -2,7 +2,6 @@ import React from 'react'
 import { Button } from '../ui/button'
 import { Link } from 'react-router-dom'
 import { FaArrowRight } from "react-icons/fa6";
-import Footer from '@/view-trip/components/Footer';
 
 
 const Hero = () => {
@@ -38,10 +37,6 @@ const Hero = () => {
 </div>
 
 </div>
-
-<Footer>
-
-</Footer>
 
 
     </div>
