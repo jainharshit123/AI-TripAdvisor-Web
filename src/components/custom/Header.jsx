@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/dialog";
 import { FcGoogle } from "react-icons/fc";
 import axios from "axios";
+import Logo from "../ui/Logo";
 
 
 
@@ -58,12 +59,9 @@ const Header = () => {
 
   return (
     <div className="p-2 shadow-sm flex justify-between items-center px-5 flex-col sm:flex-row gap-2 sm:gap-4">
-      <div className="flex items-center ">
+      <div className=" -m-3 p-2">
         <a href='/'>
-        <img
-          className=" w-[170px] h-full block"
-          src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
-        />
+          <Logo />
         </a>
       </div>
       <div className=" ">
